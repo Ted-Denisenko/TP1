@@ -65,7 +65,7 @@ void Monsters::showUnit()
 	std::cout << "Appearence: " << appearence << std::endl << std::endl;
 	return;
 }
-void Monsters::saveToFile()
+void Monsters::save()
 {
 	ofstream outfile;
 	string initfile = "data.txt";
@@ -78,7 +78,7 @@ void Monsters::saveToFile()
 	}
 	else
 	{
-		outfile << 1 << endl << name << endl << appearence;
+		outfile << 3 << endl << name << endl << appearence;
 		outfile.close();
 	}
 }

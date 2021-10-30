@@ -97,7 +97,7 @@ void Heroes::showUnit()
 	return;
 }
 
-void Heroes::saveToFile()
+void Heroes::save()
 {
 	ofstream outfile;
 	string initfile = "data.txt";

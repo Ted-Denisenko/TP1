@@ -18,7 +18,7 @@ public:
 	}
 	virtual void showUnit() = 0;
 	virtual void editUnit() = 0;
-	virtual void saveToFile() = 0;
+	virtual void save() = 0;
 	virtual void editStats(int num_str, string new_stat) = 0;
 };
 

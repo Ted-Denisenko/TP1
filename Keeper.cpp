@@ -122,7 +122,7 @@ void Keeper::saveToFile()
 	Element* buffer = head;
 	for (int i = 0; i < m_size; i++)
 	{
-		buffer->m_data->saveToFile();
+		buffer->m_data->save();
 		buffer = buffer->next;
 	}
 }

@@ -23,6 +23,6 @@ public:
 	virtual void editUnit() override;
 	virtual void editStats(int num_str, string new_stat) override;
 	void showUnit() override;
-	virtual void saveToFile() override;
+	virtual void save() override;
 };
 

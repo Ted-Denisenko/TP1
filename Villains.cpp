@@ -113,7 +113,7 @@ void Villains::showUnit()
 	std::cout << "Side skill: " << sideSkill << std::endl;
 	return;
 }
-void Villains::saveToFile()
+void Villains::save()
 {
 	ofstream outfile;
 	string initfile = "data.txt";
@@ -126,7 +126,7 @@ void Villains::saveToFile()
 	}
 	else
 	{
-		outfile << 1 << endl << name << endl << weaponType << endl << crime << endl << habitat << endl << mainSkill << sideSkill << endl;
+		outfile << 2 << endl << name << endl << weaponType << endl << crime << endl << habitat << endl << mainSkill << endl << sideSkill << endl;
 		outfile.close();
 	}
 }

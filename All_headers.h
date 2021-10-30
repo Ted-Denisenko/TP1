@@ -1,7 +1,7 @@
 #pragma once
 
-#ifndef LIBRARY_H
-#define LIBRARY_H
+#ifndef ALL_HEADERS_H
+#define ALL_HEADERS_H
 
 #include <iostream>
 #include <cstdlib>
